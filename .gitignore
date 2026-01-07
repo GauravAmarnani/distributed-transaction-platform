@@ -1,24 +1,58 @@
-# Compiled class file
+# =====================
+# Java / Maven
+# =====================
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# =====================
+# IDEs
+# =====================
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Docker
+# =====================
+**/docker-data/
+**/volumes/
+
+# =====================
+# Environment & Secrets
+# =====================
+.env
+.env.*
+application-*.yml
+application-*.properties
+
+# =====================
+# Logs & Dumps
+# =====================
+logs/
+*.out
+*.pid
 hs_err_pid*
-replay_pid*
+
+# =====================
+# Testcontainers
+# =====================
+**/.testcontainers/
+
+# =====================
+# Temporary / Local Files
+# =====================
+tmp/
